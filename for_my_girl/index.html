@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>给老婆的情人节礼物，mua！！！</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+    </style>
+    <link href="style/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="style/jquery.js"></script>
+    <script type="text/javascript" src="style/garden.js"></script>
+    <script type="text/javascript" src="style/functions.js"></script>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="content">
+            <div id="code">
+                <span class="comments">亲爱的H夫人，你好</span><br />
+				
+					<div id='hidden'>	
+					在过去的473天里，我很感谢你在我身边。<br />
+					尽管你有时候会生我气，我知道，都是我直男本性，无可救药，谢谢你没有放弃。<br />
+					也希望你能够一直不放弃我，因为呢，你老公是个超级无敌的宝藏男孩。你有福了！<br />
+					今天是情人节，老婆，节日快乐！<br />
+					</div>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3712320065678109";
+/* lovead */
+google_ad_slot = "0650322805";
+google_ad_width = 320;
+google_ad_height = 50;
+//-->
+window.on(function(){
+ 
+   $(this).hide();
+  });
+});
+</script>
+            </div>
+            <div id="loveHeart">
+                <canvas id="garden"></canvas>
+                <div id="words">
+                    <div id="messages">
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3712320065678109";
+/* lovead */
+google_ad_slot = "0650322805";
+google_ad_width = 320;
+google_ad_height = 50;
+//-->
+</script>
+</center>
+                       
+                        <div id="elapseClock" style="display:none"></div>
+                        <a href='#' id="accept">如果你接受，点击我把！！！</a>
+                    </div>
+                    <div id="loveu">
+                        永远爱你，（づ￣3￣）づ╭❤～<br/>
+                        <div class="signature">- H夫人</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var offsetX = $("#loveHeart").width() / 2;
+        var offsetY = $("#loveHeart").height() / 2 - 55;
+        
+        if (!document.createElement('canvas').getContext) {
+            var msg = document.createElement("div");
+            msg.id = "errorMsg";
+            msg.innerHTML = "你的浏览器不支持H5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+            document.body.appendChild(msg);
+            $("#code").css("display", "none")
+            $("#copyright").css("position", "absolute");
+            $("#copyright").css("bottom", "10px");
+            document.execCommand("stop");
+        } else {
+            setTimeout(function () {
+                adjustWordsPosition();
+                startHeartAnimation();
+            }, 10000);
+            
+            $("#accept").click(function(){
+                $(this).hide();
+                $("#elapseClock").show();
+                var together = new Date();
+                timeElapse(together);
+                setInterval(function () {
+                    timeElapse(together);
+                }, 500);
+            })
+            adjustCodePosition();
+            $("#code").typewriter();
+        }
+    </script>
+</body>
+</html>
